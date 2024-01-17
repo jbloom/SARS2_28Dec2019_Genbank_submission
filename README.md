@@ -73,9 +73,9 @@ The paper says the sequence was deposited in GISAID (accession `EPI_ISL_402123`)
 These metadata matches strongly indicate that the the Dec-28-2019 Genbank submission corresponds to a sequence that later in January 2020 was submitted to GISAID and the NGDC under the name BetaCoV/Wuhan/IPBCAMS-WH-01/2019. 
     
 ## Analysis of the sequence and its mutations
-I converted the sequence in the PDF documents for the Dec-28-2019 submission to text format to facilitate bioinformatic analysis (see FASTA file [https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/SARS2_28Dec2019_submission.fa](https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/SARS2_28Dec2019_submission.fa)).
+I converted the sequence in the PDF documents for the Dec-28-2019 submission to text format to facilitate bioinformatic analysis (see FASTA file [https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/SARS-CoV-2_28Dec2019_submission.fa](https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/SARS-CoV-2_28Dec2019_submission.fa)).
 I then aligned this sequence to two other SARS-CoV-2 sequences, the Wuhan-Hu-1 reference ([Genbank accession NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/1798174254)) and BetaCoV/Wuhan/IPBCAMS-WH-01/2019 ([NGDC accession GWHABKF00000000](https://ngdc.cncb.ac.cn/gwh/Assembly/947/show))
-An alignment of these three sequences is in [https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/alignment.fa](https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/alignment.fa).
+An alignment of these three sequences is in [https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/alignment.fa](https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/alignment.fa).
 The differences between the Dec-28-2019 submitted sequence and Wuhan-Hu-1 or BetaCoV/Wuhan/IPBCAMS-WH-01/2019 are listed in [Table 1](#table1).
 
 ***<a id="table1">Table 1</a>:*** _Differences between the Dec-28-2019 submitted sequence and Wuhan-Hu-1, whether those differences are also present in the BetaCoV/Wuhan/IPBCAMS-WH-01/2019, and assessment of if the differences are likely to represent true mutations. There are no differences between Wuhan-Hu-1 and BetaCoV/Wuhan/IPBCAMS-WH-01/2019 other than the three listed in the table that are shared with the Dec-28-2019 submitted sequence. All sites are numbered in Wuhan-Hu-1 reference numbering._ 
@@ -128,7 +128,7 @@ See [https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission](https://githu
 Briefly, I manually converted the sequence in the original submission PDF to text with the help of [https://www.imagetotext.io](https://www.imagetotext.io).
 
 The next steps of the analysis were performed automatically by building the `conda` environment in the repository's `environment.yml` file and running the `snakemake` file `Snakefile`.
-That `snakemake` file converted the Dec-28-2019 sequence to FASTA format and aligned it to Wuhan-Hu-1 and BetaCoV/Wuhan/IPBCAMS-WH-01/2019 to create the alignment in [https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/alignment.fa](https://github.com/jbloom/SARS2_28Dec2019_submission/blob/main/results/alignment.fa).
+That `snakemake` file converted the Dec-28-2019 sequence to FASTA format and aligned it to Wuhan-Hu-1 and BetaCoV/Wuhan/IPBCAMS-WH-01/2019 to create the alignment in [https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/alignment.fa](https://github.com/jbloom/SARS2_28Dec2019_Genbank_submission/blob/main/results/alignment.fa).
 
 I then processed and analyzed the alignment by manually running the Jupyter notebook `analyze_alignment.ipynb` in the repository.
     
