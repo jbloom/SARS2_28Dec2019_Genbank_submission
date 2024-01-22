@@ -81,7 +81,7 @@ The differences between the Dec-28-2019 submitted sequence and Wuhan-Hu-1 or Bet
 ***<a id="table1">Table 1</a>:*** _Differences between the Dec-28-2019 submitted sequence and Wuhan-Hu-1, whether those differences are also present in the BetaCoV/Wuhan/IPBCAMS-WH-01/2019, and assessment of if the differences are likely to represent true mutations. There are no differences between Wuhan-Hu-1 and BetaCoV/Wuhan/IPBCAMS-WH-01/2019 other than the three listed in the table that are shared with the Dec-28-2019 submitted sequence. All sites are numbered in Wuhan-Hu-1 reference numbering._ 
 | differences from Wuhan-Hu-1    | in IPBCAMS-WH-01/2019? | comments                            |
 |:-------------------------------|:-----------------------|:------------------------------------|
-| gap from 1-15 (5'              | no                     | likely incomplete sequencing of UTR |
+| gap from 1-15 (5' UTR)         | no                     | likely incomplete sequencing of UTR |
 | a3778g (synonymous)            | yes                    | possibly real mutation              |
 | a8388g (N1890S in nsp3)        | yes                    | possibly real mutation              |
 | t8987a (F145I in nsp4)         | yes                    | possibly real mutation              |
